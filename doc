@@ -1,0 +1,13 @@
+php artisan migrate:fresh --seed
+
+
+
+Access the application:
+
+Main app: http://localhost:8000
+
+Login with:
+
+Admin: admin@vocabulary.com / password
+
+User: user@vocabulary.com / password
