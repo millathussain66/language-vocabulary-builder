@@ -10,35 +10,35 @@ This project is fully built with **Laravel PHP**, offering secure authentication
 
 ### 🔐 Authentication
 
-* User registration & login
-* Secure session handling
+-   User registration & login
+-   Secure session handling
 
 ### 📚 Vocabulary Management
 
-* View complete vocabulary list
-* Add, edit, update, delete words
-* Organize and manage your learning efficiently
+-   View complete vocabulary list
+-   Add, edit, update, delete words
+-   Organize and manage your learning efficiently
 
 ### ⭐ Favorites
 
-* Mark important words as favorites
-* Review saved words anytime
+-   Mark important words as favorites
+-   Review saved words anytime
 
 ### 🧠 Quiz System
 
-* Generate quizzes from vocabulary
-* Multiple-choice questions
-* Real-time results
+-   Generate quizzes from vocabulary
+-   Multiple-choice questions
+-   Real-time results
 
 ### 📊 Progress Tracking
 
-* Track total learned words
-* View quiz progress and performance
+-   Track total learned words
+-   View quiz progress and performance
 
 ### 🏠 User Dashboard
 
-* Main hub after login
-* Quick access to all sections
+-   Main hub after login
+-   Quick access to all sections
 
 ---
 
@@ -47,28 +47,39 @@ This project is fully built with **Laravel PHP**, offering secure authentication
 The following diagram represents the flow of the application:
 
 ![Project Diagram](./diagram.jpeg)
-*(Replace with your actual image path from the repo)*
+_(Replace with your actual image path from the repo)_
 
 ---
 
 ## 📂 Project Structure (Laravel)
 
 ```
-app/
-├── Http/
-│   ├── Controllers/
-│   ├── Middleware/
-│   └── Requests/
-├── Models/
-├── Providers/
-routes/
-├── web.php
-├── api.php
-resources/
-├── views/
-├── css/
-├── js/
-public/
+language-vocabulary-builder/
+├── app/
+│   ├── Console/          # Artisan commands
+│   ├── Exceptions/       # Exception handlers
+│   ├── Http/
+│   │   ├── Controllers/ # Application controllers
+│   │   ├── Middleware/  # Custom middleware
+│   │   └── Requests/    # Form request validation
+│   ├── Models/          # Eloquent models
+│   └── Providers/       # Service providers
+├── bootstrap/           # Application bootstrap
+├── config/             # Configuration files
+├── database/
+│   ├── factories/      # Model factories
+│   ├── migrations/     # Database migrations
+│   └── seeders/       # Database seeders
+├── public/             # Publicly accessible files
+├── resources/
+│   ├── css/           # Stylesheets
+│   ├── js/            # JavaScript files
+│   └── views/         # Blade templates
+├── routes/             # Application routes
+├── storage/            # Storage directory
+├── tests/              # Test files
+├── vendor/             # Composer dependencies
+└── README.md           # This file
 ```
 
 ---
@@ -128,11 +139,11 @@ http://127.0.0.1:8000
 
 ## 🧩 Tech Stack
 
-* **Laravel 10**
-* **PHP 8+**
-* **MySQL / MariaDB**
-* **Blade Template Engine**
-* **TailwindCSS / Bootstrap (choose your setup)**
+-   **Laravel 10**
+-   **PHP 8+**
+-   **MySQL / MariaDB**
+-   **Blade Template Engine**
+-   **TailwindCSS / Bootstrap (choose your setup)**
 
 ---
 
@@ -140,9 +151,9 @@ http://127.0.0.1:8000
 
 Pull requests are welcome! For major changes:
 
-* Open an issue
-* Discuss what you want to change
-* Submit a PR
+-   Open an issue
+-   Discuss what you want to change
+-   Submit a PR
 
 ---
 
